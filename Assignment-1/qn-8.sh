@@ -1,4 +1,3 @@
-var='{ "fruit" : "Apple",
+echo '{ "fruit" : "Apple",
 "size" :"Large",
-"color":"red"}'
-echo "${var}" | jq '.'
+"color":"red"}' | jq '.'
